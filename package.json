@@ -1,0 +1,30 @@
+{
+  "name": "pulsecommerce",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A responsive D2C commerce dashboard for revenue analytics, customer insights, and order management.",
+  "packageManager": "pnpm@11.25.0",
+  "engines": { "node": ">=22.18.0" },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "recharts": "^3.2.1",
+    "lucide-react": "^0.468.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.13",
+    "tailwindcss": "^4.1.13",
+    "@types/react": "^19.1.13",
+    "@types/react-dom": "^19.1.9",
+    "@vitejs/plugin-react": "^5.0.3",
+    "typescript": "~5.9.2",
+    "vite": "^7.1.7"
+  }
+}
